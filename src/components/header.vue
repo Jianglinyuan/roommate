@@ -30,10 +30,7 @@ export default {
     ready() {
         $(".login").click(function(){
             $(".modal").addClass("active");
-        })
-        this.$http({url:"http://jsonplaceholder.typicode.com/users",method:"GET"}).then((response) => {
-            this.logo=response.data[0].name;
-        })
+        })    
     }
 }
 
