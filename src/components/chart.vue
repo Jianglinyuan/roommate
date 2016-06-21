@@ -1,13 +1,10 @@
 <style media="screen">
-
 .chat {
     margin-top: 10%;
 }
-
 </style>
 
 <template id="chart">
-
 <div class="columns chat">
     <div class="column col-md2"></div>
     <div class="column col-md8">
@@ -16,11 +13,9 @@
     </div>
     <div class="column col-md2"></div>
 </div>
-
 </template>
 
 <script>
-
 export default {
     ready() {
         var data = [{
@@ -61,5 +56,4 @@ export default {
         chart.render();
     }
 }
-
 </script>
